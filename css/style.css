@@ -98,10 +98,10 @@ a{color:inherit;text-decoration:none}
 .hero-card .stats span{font-size:12px;color:#A9C3B4}
 .subj-card{padding:20px 20px 18px;cursor:pointer;transition:transform .15s,box-shadow .15s}
 .subj-card:hover{transform:translateY(-3px);box-shadow:0 10px 30px rgba(30,77,58,.14)}
-.subj-card .ic{width:42px;height:42px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:12px;color:#fff}
-.subj-card .ic.c1{background:var(--blue)}
-.subj-card .ic.c2{background:var(--green-500)}
-.subj-card .ic.c3{background:var(--purple)}
+.subj-card .ic{width:42px;height:42px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:12px;color:#fff;font-weight:700}
+.subj-card .ic.c1,.subj-card .ic.blue{background:var(--blue)}
+.subj-card .ic.c2,.subj-card .ic.green{background:var(--green-500)}
+.subj-card .ic.c3,.subj-card .ic.purple{background:var(--purple)}
 .subj-card h3{font-family:var(--serif);font-size:17px;margin-bottom:6px}
 .subj-card p{font-size:13px;color:var(--ink-2);margin-bottom:10px;min-height:52px}
 .subj-card .meta{font-size:12px;color:var(--ink-3);display:flex;justify-content:space-between}
@@ -112,9 +112,9 @@ a{color:inherit;text-decoration:none}
 .chap-card{padding:16px 18px;cursor:pointer;display:flex;align-items:center;gap:14px;transition:border-color .15s,background .15s}
 .chap-card:hover{border-color:var(--green-500);background:var(--green-50)}
 .chap-card .num{width:44px;height:44px;border-radius:12px;flex:none;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-weight:700;font-size:15px;color:#fff}
-.chap-card.c1 .num{background:var(--blue)}
-.chap-card.c2 .num{background:var(--green-500)}
-.chap-card.c3 .num{background:var(--purple)}
+.chap-card.c1 .num,.chap-card.blue .num{background:var(--blue)}
+.chap-card.c2 .num,.chap-card.green .num{background:var(--green-500)}
+.chap-card.c3 .num,.chap-card.purple .num{background:var(--purple)}
 .chap-card .bd{flex:1;min-width:0}
 .chap-card .bd h3{font-size:15.5px;font-weight:700;font-family:var(--serif)}
 .chap-card .bd p{font-size:12.5px;color:var(--ink-2);margin-top:2px}
